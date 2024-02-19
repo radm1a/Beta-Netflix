@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Betaflix</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <header id="header">
+      <img
+        id="header-img"
+        src="https://i.postimg.cc/W1fcdczg/icons8-netflix-96.png"
+      />
+      <nav id="nav-bar">
+        <a href="#Get_Started" class="nav-link">Get Started</a>
+        <a href="#Features" class="nav-link">Features</a>
+        <a href="#Get_A_Membership" class="nav-link">Get A Membership</a>
+      </nav>
+      <form
+        id="form"
+        action="https://www.freecodecamp.com/email-submit"
+        method="post"
+      >
+        <h1 id="Get_Started">Get Started!</h1>
+        <h2>Unlimited movies, TV shows, and more</h2>
+        <p>
+          Ready to watch? Enter your email to create or restart your membership.
+        </p>
+        <label>
+          <input
+            name="email"
+            required
+            type="email"
+            id="email"
+            placeholder="Enter your email"
+          />
+        </label>
+        <input type="submit" id="submit" value="get started" />
+      </form>
+    </header>
+    <hr class="header-border-hr">
+    <section id="Features">
+      <section class="feature-1">
+        <p>
+          Discover an expansive collection encompassing movies, TV shows,
+          documentaries, and exclusive original content waiting to be explored
+        </p>
+        <div class="video-container">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/ByAn8DF8Ykk?si=bklsLCBrOSBbZRL5"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+    </div>
+      </section>
+      <hr>
+      <section class="feature-2">
+        <img src="https://i.postimg.cc/j2bLxHVF/Rov-Hr6r3br-Jtx-HRZUc-X9i9.jpg">
+        <p>Enjoy on your TV</p>
+      </section>
+      <hr>
+      <section class="feature-3">
+        <p>Download your shows to watch offline</p>
+        <img src="https://i.postimg.cc/sX1MHjYT/images.jpg">
+      </section>
+    </section>
+    <hr>
+    <h1 class="membership">Choose the plan that’s right for you & get a membership!</h1>
+    <section id="Get_A_Membership">
+        <div class="plan" id="premium">
+            <div class="level">Premium</div>
+            <h2>EUR 13.99</h2>
+            <ol>
+                <li>video and sound quality <span>Best</span></li>
+                <li>resolution <span>4K + HDR</span></li>
+            </ol>
+            <button class="btn">Select</button>
+        </div>
+        <div class="plan" id="standard">
+            <div class="level">Standard</div>
+            <h2>EUR 11.79</h2>
+            <ol>
+                <li>video and sound quality <span>Great</span></li>
+                <li>resolution <span>1080p</span></li>
+            </ol>
+            <button class="btn">Select</button>
+        </div>
+        <div class="plan" id="basic">
+            <div class="level">Basic</div>
+            <h2>EUR 9.39</h2>
+            <ol>
+                <li>video and sound quality <span>Good</span></li>
+                <li>resolution <span>720p</span></li>
+            </ol>
+            <button class="btn">Select</button>
+        </div>
+       </section>
+       <footer>
+        <p>Privacy</p>
+        <p>Terms</p>
+        <p>Contact</p>
+    </footer>
+  </body>
+</html>
